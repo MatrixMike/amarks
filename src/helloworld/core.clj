@@ -9,7 +9,7 @@
 "Hello, world 2")      ; static function
 
 (defn -main   
-     "Entrypoint"           ; docstring
-     [& args]               ; variadic  ;; the quotes used in ppt are not OK when copied into source file
-     (println (helloworld))
-     )
+     "Entrypoint"           ; docstring  ;; the quotes used in ppt are not OK when copied into source file
+     [& args]               ; variadic  
+     (println (helloworld) ))
+     
