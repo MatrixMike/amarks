@@ -4,12 +4,12 @@
 
 (:gen-class))     ; compilation directive
 
-(defn helloworldfn
+(defn helloworld
 []
 "Hello, world 2")      ; static function
 
 (defn -main   
      "Entrypoint"           ; docstring
      [& args]               ; variadic  ;; the quotes used in ppt are not OK when copied into source file
-     (println (helloworldfn))
+     (println (helloworld))
      )
