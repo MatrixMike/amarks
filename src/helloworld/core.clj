@@ -1,15 +1,15 @@
 ;; (ns amarks.core)
 
-(ns hello-world.core ; namespace def’n
+(ns helloworld.core ; namespace def’n
 
 (:gen-class))     ; compilation directive
 
-(defn hello-worldfn
+(defn helloworldfn
 []
 "Hello, world")      ; static function
 
 (defn -main    ; docstring
     ;; “Entrypoint”          ; variadic
      [& args]
-     (println (hello-worldfn))
+     (println (helloworldfn))
      )
