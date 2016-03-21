@@ -6,10 +6,10 @@
 
 (defn helloworldfn
 []
-"Hello, world")      ; static function
+"Hello, world 2")      ; static function
 
-(defn -main    ; docstring
-    ;; “Entrypoint”          ; variadic
-     [& args]
+(defn -main   
+     "Entrypoint"           ; docstring
+     [& args]               ; variadic  ;; the quotes used in ppt are not OK when copied into source file
      (println (helloworldfn))
      )
